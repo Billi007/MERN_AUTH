@@ -145,7 +145,7 @@ try {
    
 } catch (error) {
   console.log(error)
-  res.status(401).json({
+  res.status(501).json({
     error: "something went wrong while login.",
     message: error.message
   })
